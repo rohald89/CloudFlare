@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #41444c;
+  color: white;
+}
+
+header {
+  height: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 65px;
+  margin: 15px;
+  color: #228cee;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+.login-btn {
+  padding: 10px 30px;
+  border-radius: 25px;
+  background-color: #228cee;
+  border: none;
+  color: white;
+  text-transform: capitalize;
+}
+
+main {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 60%;
+  height: 60%;
+  display: flex;
+}
+
+.specs {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(rgba(34, 140, 238, 0.7), rgba(34, 140, 238, 0.7)),
+    url("../images/bg-image.jpg") center/cover no-repeat;
+}
+
+.specs li {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.specs li:before {
+  content: "\00b7";
+  font-size: 100px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+
+.login {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 50px;
+}
+
+.login h1 {
+  color: grey;
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+
+.login input {
+  border: none;
+  border-bottom: 5px solid #228cee;
+  margin: 20px;
+}
+
+.login input:focus {
+  border: none;
+}
+
+.login a {
+  align-self: flex-end;
+}
+
+.login div {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.socials {
+  width: 60px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.socials img {
+  width: 20px;
+  margin: 5px;
+}
